@@ -1,0 +1,5 @@
+Valor Lançamento Ano % = 0 + 
+DIVIDE(
+    [Valor Lançamento], 
+    [Valor Lançamento Ano]
+)
