@@ -1,0 +1,10 @@
+Idiomas = 
+SELECTCOLUMNS(
+    {
+        ("Português", 5),
+        ("Inglês", 3),
+        ("Espanhol", 1)
+    }, 
+    "Idioma", [Value1], 
+    "Proficiência", [Value2]
+)
