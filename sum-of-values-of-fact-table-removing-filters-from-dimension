@@ -1,0 +1,8 @@
+Valor Lançamento Ano = 0 + 
+CALCULATE(
+    SUMX(
+        'Lançamentos', 
+        'Lançamentos'[Valor]
+    ), 
+    ALLSELECTED('Categoria') -- Remove the filter from 'Categoria' table
+)
