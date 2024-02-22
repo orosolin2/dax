@@ -1,0 +1,10 @@
+Ano Filtro Selecionado = 
+IF(
+    ISFILTERED('Calendário'[Ano]), 
+    CONCATENATEX(
+        VALUES('Calendário'[Ano]), 
+        'Calendário'[Ano], 
+        ", "
+    ), 
+    BLANK()
+)
