@@ -1,0 +1,8 @@
+Valor Ajustes = 0 + 
+CALCULATE(
+    SUMX(
+        'Lançamentos', 
+        'Lançamentos'[Valor]
+    ), 
+    Evento[Evento] = "Ajustes"
+)
